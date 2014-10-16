@@ -30,8 +30,8 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2o-la-Fuz">
                                             <rect key="frame" x="0.0" y="0.0" width="142" height="142"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIp-HK-d0r">
-                                                    <rect key="frame" x="0.0" y="53.5" width="142" height="35.5"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIp-HK-d0r">
+                                                    <rect key="frame" x="0.0" y="54" width="142" height="36"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -134,6 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-133" y="476"/>
         </scene>
         <!--Color Swatch Detail View Controller-->
         <scene sceneID="UYN-vf-I6w">
@@ -148,53 +149,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEO-e4-m2j" userLabel="swatch1">
-                                <rect key="frame" x="0.0" y="337" width="150" height="112.5"/>
+                                <rect key="frame" x="0.0" y="337" width="150" height="113"/>
                                 <color key="backgroundColor" red="0.79655653510000002" green="1" blue="0.53338526100000005" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3e-iD-Szg" userLabel="swatch2">
-                                <rect key="frame" x="150" y="337" width="150" height="112.5"/>
+                                <rect key="frame" x="150" y="337" width="150" height="113"/>
                                 <color key="backgroundColor" red="1" green="0.29934685170000003" blue="0.6203950641" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huK-u2-fOx" userLabel="swatch3">
-                                <rect key="frame" x="300" y="337" width="150" height="112.5"/>
+                                <rect key="frame" x="300" y="337" width="150" height="113"/>
                                 <color key="backgroundColor" red="0.316555319" green="0.73633128039999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWR-0E-QR3" userLabel="swatch4">
-                                <rect key="frame" x="450" y="337" width="150" height="112.5"/>
+                                <rect key="frame" x="450" y="337" width="150" height="113"/>
                                 <color key="backgroundColor" red="1" green="0.86195106580000003" blue="0.15694230179999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kEB-tw-dqs">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="337.5"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kEB-tw-dqs">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="338"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aSb-9L-sru">
-                                        <rect key="frame" x="20" y="80" width="560" height="176.5"/>
+                                        <rect key="frame" x="20" y="80" width="560" height="177"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4i-uM-IT3">
-                                                <rect key="frame" x="0.0" y="0.0" width="35.5" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rgb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3B-2j-cFj">
-                                                <rect key="frame" x="0.0" y="37" width="33" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="37" width="33" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lab" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-SB-aGN">
-                                                <rect key="frame" x="0.0" y="148" width="29.5" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="148" width="30" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hsb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujm-CX-0OJ">
-                                                <rect key="frame" x="0.0" y="111" width="37.5" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="111" width="38" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cmyk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="006-0e-qaJ">
-                                                <rect key="frame" x="0.0" y="74" width="53.5" height="28.5"/>
+                                                <rect key="frame" x="0.0" y="74" width="54" height="29"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
