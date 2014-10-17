@@ -24,6 +24,11 @@ import UIKit
 
 class ViewController: UIViewController, ColorSwatchSelectionDelegate {
                             
+    @IBOutlet var tallLayoutConstraints: [NSLayoutConstraint]!
+    
+    @IBOutlet var wideLayoutConstraints: [NSLayoutConstraint]!
+
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -44,6 +49,22 @@ class ViewController: UIViewController, ColorSwatchSelectionDelegate {
       }
     }
   }
+    
+    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
+        
+        let transitionToWide = size.width > size.height
+        let constraintsToUninstall = transitionToWide ? tallLayoutConstraints : wideLayoutConstraints
+        let constraintsToInstall = transitionToWide ? wideLayoutConstraints : tallLayoutConstraints
+        
+        // Ask AutoLayout to commit any outstanding changes
+        view.layoutIfNeeded()
+        
+        // Animate to the new layout alongside the transition
+        coordinator.animateAlongsideTransition({ _ in NSLayoutConstraint.deactivateConstraints(constraintsToUninstall)
+            
+        }, completion: nil)
+    }
 
 }
 

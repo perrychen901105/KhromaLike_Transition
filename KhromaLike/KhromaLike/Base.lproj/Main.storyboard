@@ -131,6 +131,24 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outletCollection property="tallLayoutConstraints" destination="IwV-s5-PfO" collectionClass="NSMutableArray" id="eT3-gn-ywg"/>
+                        <outletCollection property="tallLayoutConstraints" destination="Nni-A4-PEu" collectionClass="NSMutableArray" id="VNu-ct-DKQ"/>
+                        <outletCollection property="tallLayoutConstraints" destination="TbC-Z1-KG6" collectionClass="NSMutableArray" id="0eX-9h-ALx"/>
+                        <outletCollection property="tallLayoutConstraints" destination="lGK-Z1-8lC" collectionClass="NSMutableArray" id="cjg-yM-iRO"/>
+                        <outletCollection property="tallLayoutConstraints" destination="31K-m8-FpD" collectionClass="NSMutableArray" id="1Yx-1H-LWh"/>
+                        <outletCollection property="tallLayoutConstraints" destination="8Rf-80-5yG" collectionClass="NSMutableArray" id="6nX-fA-EpP"/>
+                        <outletCollection property="tallLayoutConstraints" destination="x3A-Ko-eTj" collectionClass="NSMutableArray" id="XHo-bb-B8f"/>
+                        <outletCollection property="tallLayoutConstraints" destination="RbG-Hg-dYN" collectionClass="NSMutableArray" id="pcj-Z4-RIx"/>
+                        <outletCollection property="wideLayoutConstraints" destination="Nni-A4-PEu" collectionClass="NSMutableArray" id="gjD-uk-xYY"/>
+                        <outletCollection property="wideLayoutConstraints" destination="TbC-Z1-KG6" collectionClass="NSMutableArray" id="ZON-aV-ITL"/>
+                        <outletCollection property="wideLayoutConstraints" destination="llf-4W-YxM" collectionClass="NSMutableArray" id="98R-GQ-a3m"/>
+                        <outletCollection property="wideLayoutConstraints" destination="BA5-FU-AZ0" collectionClass="NSMutableArray" id="RxR-Qs-1aI"/>
+                        <outletCollection property="wideLayoutConstraints" destination="KEu-IV-W7J" collectionClass="NSMutableArray" id="59r-Fh-ifT"/>
+                        <outletCollection property="wideLayoutConstraints" destination="x3A-Ko-eTj" collectionClass="NSMutableArray" id="X0n-Mj-pHc"/>
+                        <outletCollection property="wideLayoutConstraints" destination="RbG-Hg-dYN" collectionClass="NSMutableArray" id="OzK-dB-fKn"/>
+                        <outletCollection property="wideLayoutConstraints" destination="d07-v1-eKe" collectionClass="NSMutableArray" id="aQO-fS-var"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
