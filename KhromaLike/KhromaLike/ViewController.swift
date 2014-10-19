@@ -62,7 +62,8 @@ class ViewController: UIViewController, ColorSwatchSelectionDelegate {
         
         // Animate to the new layout alongside the transition
         coordinator.animateAlongsideTransition({ _ in NSLayoutConstraint.deactivateConstraints(constraintsToUninstall)
-            
+            NSLayoutConstraint.activateConstraints(constraintsToInstall)
+            self.view.layoutIfNeeded()
         }, completion: nil)
     }
 
