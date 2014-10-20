@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426A41419F4EE39003F00D6 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A41319F4EE39003F00D6 /* PaddedLabel.swift */; };
 		223285E9196350FF0026C074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223285E8196350FF0026C074 /* AppDelegate.swift */; };
 		223285EB196350FF0026C074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223285EA196350FF0026C074 /* ViewController.swift */; };
 		223285EE196350FF0026C074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223285EC196350FF0026C074 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0426A41319F4EE39003F00D6 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaddedLabel.swift; path = KhromaLike/PaddedLabel.swift; sourceTree = "<group>"; };
 		223285E3196350FF0026C074 /* KhromaLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhromaLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		223285E7196350FF0026C074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		223285E8196350FF0026C074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		223285DA196350FF0026C074 = {
 			isa = PBXGroup;
 			children = (
+				0426A41319F4EE39003F00D6 /* PaddedLabel.swift */,
 				223285E5196350FF0026C074 /* KhromaLike */,
 				223285F8196350FF0026C074 /* KhromaLikeTests */,
 				223285E4196350FF0026C074 /* Products */,
@@ -285,6 +288,7 @@
 				22328614196361E40026C074 /* ColorSwatchCollectionViewController.swift in Sources */,
 				2232860E196352DC0026C074 /* ColorSwatch.swift in Sources */,
 				2232860C1963526E0026C074 /* Colours.m in Sources */,
+				0426A41419F4EE39003F00D6 /* PaddedLabel.swift in Sources */,
 				223285E9196350FF0026C074 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
